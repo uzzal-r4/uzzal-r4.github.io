@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+body {
+
+    background-image: url("img/background.jpeg");
+    margin: 0%;
+
+}
+
+.wrapBox {
+
+    background-color: #b0dfff;
+    height: 500px;
+    width: 500px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 218.5px;
+    box-shadow: 1px 1px 15px 2px #1467b1;
+
+}
+
+.titleName h3{
+
+    font-family:'Barlow Semi Condensed', sans-serif;
+    color: #00AAE5;
+    padding: 40px;
+    font-size: 25px;
+    word-spacing: 2px;
+    position: relative;
+    
+}
+
+.titleName h3:after {
+    border-bottom: 3px solid #00AAE5;
+    content: "";
+    bottom: 29px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+}
+
+.emailBox input {
+
+    border: none;
+    outline: #d6efff;
+    height: 40px;
+    width: 350px;
+    margin-top: -21px;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.passBox input {
+
+    border: none;
+    outline: #d6efff;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+.btnBox button {
+
+    width: 367px;
+    height: 55px;
+    outline: #d6efff;
+    text-align: center;
+    border: none;
+    background-color: #00AAE5;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 21px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    
+}
+
+.btnBox button:hover {
+
+    box-shadow: 0px 0px 2px 1.25px white;
+    cursor: pointer;
+
+}
+
+.extraBox{
+
+    margin-top: 5px;
+}
+.extraBox span{
+
+    font-family:'Barlow Semi Condensed', sans-serif;
+    color: #00AAE5;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.extraBox a {
+
+    text-decoration: none;
+    color: #00AAE5;
+    transition: 0.5s;
+
+}
+
+.extraBox a:hover{
+
+    color: #0046bf;
+
+}
+.extraBox2 {
+
+    margin-top: 5px;
+
+}
+.extraBox2 span{
+
+    font-family:'Barlow Semi Condensed', sans-serif;
+    color: #00AAE5;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.extraBox2 a {
+    text-decoration: none;
+    color: #00AAE5;
+    transition: 0.5s;
+
+}
+
+.extraBox2 a:hover{
+
+    color: #0046bf;
+
+}
